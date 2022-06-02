@@ -1,0 +1,45 @@
+.conatiner .contact_container{
+    width: 58%;
+    text-align: justify;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* margin: 0 auto; */
+}
+input, textarea{
+    width: 60%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    margin: 0 auto;
+    color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn{
+    margin: 0 auto;
+}
+
+::placeholder{
+    color: var(--color-primary-variant);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ============media query (small)=============== */
+@media screen and (max-width:1024px) {
+    .conatiner .contact_container{
+        width: var(--container-width-md);
+    }
+}
+
+/* ============media query (small)=============== */
+@media screen and (max-width:600px) {
+    .conatiner .contact_container{
+        width: var(--container-width-sm);
+    }
+}
