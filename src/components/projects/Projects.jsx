@@ -3,6 +3,7 @@ import "./projects.css";
 import WSNotifications from '../../assets/notifications.png'
 import WSCoaching from '../../assets/ws-coaching.png'
 import Foodiesta from '../../assets/food delivery.png'
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -35,6 +36,7 @@ const data = [
     description: 'Developed web-app which allows user to order food by adding to cart, search for foods, search by tags etc. In Development features are adding the products by admin.  ',
     skills: ' MEAN stack - MongoDB, Express, Angular, NodeJS. ',
     github: ' https://github.com/sharmadaisy/Foodiesta'
+
   },
 ];
 const Projects = () => {

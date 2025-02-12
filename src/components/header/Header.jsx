@@ -25,6 +25,7 @@ const Header = () => {
             <p>Frontend Developer crafting future-ready web solutions.</p>
             <p>
               "Challenging limits, expanding possibilities. Committed to continuous learning & tech evolution. "
+
             </p>
           </div>
         </div>
