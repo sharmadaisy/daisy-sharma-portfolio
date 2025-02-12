@@ -9,109 +9,135 @@ const Skills = () => {
 
       <div className="container skills__container">
         <div className="skills">
-          <h3>Languages and Techs</h3>
+          <h3>Frontend</h3>
           <div className="skills__content">
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>C, C++ and Python</h4>
-              <small className="text-light">Experienced</small>
+                <h4>Angular</h4>
+                {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>HTML, CSS and JavaScript</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>TypeScript and JavaScript</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>MERN Stack</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>HTML & CSS</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>Salesforce(Admin, Development and LWC)</h4>
-              <small className="text-light">Experienced</small>
+                <h4>Bootstrap & Tailwind CSS</h4>
+                {/* <small className="text-light">Experienced</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>iOS Application Development (Swift)</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>Angular Material</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills__details">
+              <SkillIcon />
+              <div>
+                <h4>RxJS and NgRx</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills__details">
+              <SkillIcon />
+              <div>
+                <h4>ReactJS</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
           </div>
         </div>
         <div className="skills">
-          <h3>IT Constructs</h3>
+          <h3>Backend, Database and Testing</h3>
 
           <div className="skills__content">
-          <article className="skills__details">
-                <SkillIcon/>
+            <article className="skills__details">
+              <SkillIcon />
               <div>
-                <h4>Problem Solving (DSA)</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>NodeJS & Express JS</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>Object Oriented Programming (OOPs)</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>MongoDB</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>Database Management System(DBMS)</h4>
-              <small className="text-light">Intermediate</small>
-              </div>
-            </article>
-            <article className="skills__details">
-                <SkillIcon/>
-              <div>
-                <h4>Operating System(OS)</h4>
-              <small className="text-light">Intermediate</small>
+                <h4>Jasmine, Karma & Protractor</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
           </div>
         </div>
         <div className="skills">
-          <h3>Development Tools and Operating Systems</h3>
+          <h3>Others</h3>
 
           <div className="skills__content">
-          <article className="skills__details">
-                <SkillIcon/>
+            <article className="skills__details">
+              <SkillIcon />
               <div>
-                <h4>Windows 10, Mac OS High Sierra, Ubuntu</h4>
-              {/* <small className="text-light">Intermediate</small> */}
+                <h4>Git</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>Visual Studio Code, Sublime Text</h4>
-              {/* <small className="text-light">Intermediate</small> */}
+                <h4>JIRA</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>Jupyter Notebook and Pycharm</h4>
-              {/* <small className="text-light">Intermediate</small> */}
+                <h4>Jenkins</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
             <article className="skills__details">
-                <SkillIcon/>
+              <SkillIcon />
               <div>
-                <h4>XCode</h4>
-              {/* <small className="text-light">Intermediate</small> */}
+                <h4>Confluence</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article>
+            <article className="skills__details">
+              <SkillIcon />
+              <div>
+                <h4>Postman</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article><article className="skills__details">
+              <SkillIcon />
+              <div>
+                <h4>RESTful APIs</h4>
+                {/* <small className="text-light">Intermediate</small> */}
+              </div>
+            </article><article className="skills__details">
+              <SkillIcon />
+              <div>
+                <h4>Webpack</h4>
+                {/* <small className="text-light">Intermediate</small> */}
               </div>
             </article>
           </div>

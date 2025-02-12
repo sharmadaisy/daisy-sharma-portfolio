@@ -22,10 +22,10 @@ const Header = () => {
             </div>
           </div>
           <div className="about__content">
-            <p>Currently promoted to POWER PROGRAMMER role at Infosys.</p>
+            <p>Frontend Developer crafting future-ready web solutions.</p>
             <p>
-              " I am constantly striving to learn new technologies and look ways to
-               better myself in this rapidly changing industry. "
+              "Challenging limits, expanding possibilities. Committed to continuous learning & tech evolution. "
+
             </p>
           </div>
         </div>
