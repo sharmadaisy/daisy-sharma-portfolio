@@ -11,16 +11,16 @@ import Skills from './components/skills/Skills'
 const App = () => {
   return (
     <>
-    <div>
-      <div className="container"><Header/></div>
-      
-      <Nav/>
-      <WorkExp/>
-      <Projects/>
-      <Skills/>
-      <Education/>
-      <Contact/>
-      <Footer/>
+      <div>
+        <div className="container" ><Header /></div>
+
+        <Nav />
+        <WorkExp />
+        <Projects />
+        <Skills />
+        <Education />
+        <Contact />
+        <Footer />
       </div>
     </>
   )
